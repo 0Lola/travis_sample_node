@@ -15,7 +15,7 @@ before_script:
 
 script:
   - docker --version # print the version for logging
-  - docker build -t travis_simple_node .
+  - docker build -t simple-node .
   - docker tag simple-node zxa011023/udacity-sample-node:latest
 
 after_success:
